@@ -326,7 +326,9 @@
     display: flex;
     justify-content: space-between;
 }
-
+.top-50{
+    top: 50px !important;
+}
 @media(max-width:991.98px) {
     .dots {
         width: 70%;
