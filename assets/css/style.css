@@ -1,14 +1,20 @@
 @import url(/assets/css/root.css);
 
 /* --------------------- */
+
+
+@font-face {
+    font-family: 'Articulat CF';
+    src: url(/assets/font/Fontspring-DEMO-articulatcf-regular-BF64a38d8b1d671.otf) format('woff2');
+}
+
 .max-w-1140 {
     max-width: 1140px;
 }
 
-/* .ff-1 {
-    font-family: 'rticulat CF';
-    src: url('/assets/font/Articulatcf-bold.otf') format('truetype');
-} */
+.ff-1 {
+    font-family: 'Articulat CF';
+}
 
 .fw-700 {
     font-weight: 700;
@@ -64,9 +70,7 @@
     gap: 32px;
 }
 
-.pl-2 {
-    padding-left: 2px;
-}
+
 
 .icon-box {
 
@@ -84,18 +88,16 @@
     flex-direction: column;
     align-items: center;
     width: 100px;
-    height: 810px;
+    /* height: 810px; */
     margin-top: 50px;
-
+padding-right: 40px;
 }
-
-
 
 .nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 32px;
 
 }
 
@@ -113,7 +115,7 @@
 }
 
 .nav-item:nth-child(1) {
-    padding-top: 38px;
+    padding-top: 40px;
 }
 
 .nav-item:nth-child(2) {
@@ -125,11 +127,11 @@
 }
 
 .nav-item:nth-child(4) {
-    padding-top: 45px;
+    padding-top: 32px;
 }
 
 .nav-item:nth-child(5) {
-    padding-top: 32px;
+    padding-top: 45px;
 }
 
 .nav-item:nth-child(6) {
@@ -137,26 +139,22 @@
 }
 
 .arrow-img {
-    width: 1.5rem;
-    height: auto;
+    margin-top: 40px;
 }
 
 .pt-100 {
     padding-top: 100px;
 }
 
-
-
 .right-sidebar {
     display: flex;
     flex-direction: column;
     gap: 32px;
     margin-top: 60px;
-   
+    padding-left: 40px;
+    justify-content: center;
+
 }
-
-
-
 
 /* --------------- */
 .section-2 {
@@ -165,7 +163,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    /* height: 810px; */
 }
 
 .py-183 {
@@ -196,7 +193,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    /* height: 638px; */
 }
 
 .py-255 {
@@ -223,7 +219,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    /* height: 500px; */
 }
 
 .mt-64 {
@@ -250,14 +245,6 @@
 /* ----------- */
 .bottom-0 {
     bottom: 0;
-}
-
-.left-0 {
-    left: 0 !important;
-}
-
-.right-0 {
-    right: 0 !important;
 }
 
 .mt-193 {
@@ -327,40 +314,20 @@
     fill: black;
 }
 
-.menu-lines {
-    width: 30px;
-    height: 5px;
-    margin-bottom: 5px;
-    display: flex;
-    color: #9A0000;
-    transition: all 300ms linear;
-    transform-origin: left;
-    border-radius: 10px;
-}
-
-.cursor-pointer {
-    cursor: pointer;
-}
-
-.rotate-42 {
-    transform: rotate(42deg);
-}
-
-.z-5 {
-    z-index: 5;
-}
-
-.z-6 {
-    z-index: 6;
-}
-
-.rotate-43 {
-    transform: rotate(-43deg);
-}
 .hero {
-    height: 600px;
+    height: 650px;
     width: 100%;
 }
+
+.max-w-354 {
+    max-width: 354px;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media(max-width:991.98px) {
     .dots {
         width: 70%;
@@ -418,39 +385,45 @@
     .lg-none {
         display: none;
     }
-
-    .nav-link {
-        display: flex !important;
-        flex-direction: column;
-        width: 100%;
-        min-height: 100vh;
-        position: fixed;
-        justify-content: center;
-        bottom: 0;
-        right: -100% !important;
-        top: 0%;
-        transition: all 300ms linear !important;
-        z-index: 5;
-        backdrop-filter: blur(40px);
-        background: #FDFCFC;
-    }
-
-    .show-navbar {
-        right: 0 !important;
-    }
-        
+.hero {
+    width: 100%;
 }
-@media(max-width:768px){
-    .md-space{
+
+}
+
+@media(max-width:768px) {
+    .md-space {
         padding-top: 18px;
     }
-    .text{
+
+    .text {
         text-align: center;
     }
-    .md-center{
-        display: flex ;
+
+    .md-center {
+        display: flex;
         justify-content: center;
         align-content: center;
     }
-   
+    .sidebar{
+        padding-right: 10px;
+    }
+.right-sidebar{
+    padding-left: 10px;
+}
+.hero {
+    /* height: 550px; */
+    width: 100%;
+}
+
+}
+
+@media(max-width:576px) {
+    .display {
+        /* display: flex; */
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+
+    }
 }
