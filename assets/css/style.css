@@ -163,9 +163,11 @@
     background-repeat: no-repeat;
     width: 100%;
 }
-
+.gap-80{
+    gap: 80px;
+}
 .py-183 {
-    padding-top: 183px;
+    padding-top: 0px;
     padding-bottom: 184px;
 }
 
@@ -353,7 +355,7 @@
     }
 
     .py-183 {
-        padding-top: 43px;
+        padding-top: 30px;
         padding-bottom: 44px;
     }
 
