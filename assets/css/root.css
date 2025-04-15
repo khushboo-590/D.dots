@@ -5,6 +5,7 @@
             /* --------------font--------- */
            --text-sm:16px;
             --text-md:24px;
+            --text-lg:36px;
             --text-xl:54px;
 }
 .bg-blue{
@@ -21,4 +22,7 @@
 }
 .fs-16{
     font-size: var(--text-sm);
+}
+.fs-36{
+    font-size: var(--text-lg);
 }
