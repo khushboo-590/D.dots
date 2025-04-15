@@ -2,6 +2,7 @@
     /* -----------------colors------------------- */
     --blue-color: #0B0E11;
             --white-color: #FFFFFF;
+                   --light-white-color: #FAFAFA;
             /* --------------font--------- */
            --text-sm:16px;
             --text-md:24px;
@@ -10,6 +11,9 @@
 }
 .bg-blue{
     background: var(--blue-color);
+}
+.fc-light-white{
+    color: var(--light-white-color);
 }
 .fc-white{
     color: var(--white-color);
