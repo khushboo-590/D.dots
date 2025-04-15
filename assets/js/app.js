@@ -23,7 +23,7 @@ function factorial(n) {
 }
 
 console.log(factorial(5));
-// ------------
+// ---------------------
 function largestNumber(arr) {
     let largest = arr[0];
     for (let i = 1; i < arr.length; i++) {
