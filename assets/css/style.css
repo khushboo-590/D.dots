@@ -331,6 +331,9 @@
 .top-50{
     top: 50px !important;
 }
+.mb-40{
+    margin-bottom: 40px;
+}
 @media(max-width:991.98px) {
     .dots {
         width: 70%;
