@@ -1,5 +1,63 @@
 @import url(/assets/css/root.css);
+
 /* --------------------- */
-.max-w-1140{
+.max-w-1140 {
     max-width: 1140px;
+}
+
+.ff-1 {
+    font-family: 'rticulat CF';
+    src: url('/assets/font/Articulatcf-bold.otf') format('truetype');
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-400{
+    font-weight: 400;
+}
+.lh-160{
+            line-height: 160%;
+}
+.lh-65 {
+    line-height: 65px;
+}
+.lh-33{
+line-height: 33px;}
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+
+.bg-2 {
+    background-image: url(/assets/images/png/section-2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 810px;
+}
+
+.py-183 {
+    padding-top: 183px;
+    padding-bottom: 184px;
+}
+.mt-12{
+    margin-top: 12px;
+}
+.max-w-477{
+    max-width: 477px;
+}
+.oppicity-70{
+    opacity: 0.7;
+}
+.pt-32{
+    padding-top: 32px;
 }

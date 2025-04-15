@@ -1,7 +1,24 @@
 :root{
     /* -----------------colors------------------- */
     --blue-color: #0B0E11;
+            --white-color: #FFFFFF;
+            /* --------------font--------- */
+           --text-sm:16px;
+            --text-md:24px;
+            --text-xl:54px;
 }
 .bg-blue{
     background: var(--blue-color);
+}
+.fc-white{
+    color: var(--white-color);
+}
+.fs-54{
+    font-size: var(--text-xl);
+}
+.fs-24{
+    font-size: var(--text-md);
+}
+.fs-16{
+    font-size: var(--text-sm);
 }
