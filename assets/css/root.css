@@ -1,0 +1,7 @@
+:root{
+    /* -----------------colors------------------- */
+    --blue-color: #0B0E11;
+}
+.bg-blue{
+    background: var(--blue-color);
+}
