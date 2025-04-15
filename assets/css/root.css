@@ -5,6 +5,8 @@
     --light-white-color: #FAFAFA;
     --light-blue: #142B38B2;
     /* --------------font--------- */
+
+    --text-deafault: 20px;
     --text-sm: 16px;
     --text-md: 24px;
     --text-lg: 36px;
@@ -45,4 +47,7 @@
 
 .fs-36 {
     font-size: var(--text-lg);
+}
+.fs-20{
+    font-size: var(--text-deafault);
 }
